@@ -7,331 +7,80 @@
     <title>Good Yay!</title>
     <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.0/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <link rel="stylesheet" href="src/main.css">
 </head>
 
 <body>
-    <style>
-        .container {
-            max-width: 768px;
-            margin: auto;
-            margin-top: 32px;
-            padding: 8px 16px;
-        }
 
-        article h1 {
-            font-size: 2em;
-        }
-
-        nav ul {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr) 100px;
-            list-style: none;
-            text-align: center;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #FFFFFF;
-            height: 40px;
-            line-height: 40px;
-            display: block;
-        }
-
-        .nav-blog {
-            background-color: rgb(41, 41, 41);
-        }
-
-
-        .nav-github {
-            background-color: rgb(32, 37, 41);
-        }
-
-        .nav-twitter {
-            background-color: rgb(25, 151, 240);
-        }
-
-        .nav-email {
-            background-color: #dd4b39;
-        }
-
-        .nav-resume {
-            background-color: #cccccc;
-        }
-
-        .nav-resume a {
-            color: #000000;
-        }
-
-        .nav-language a {
-            color: #000000;
-        }
-
-        .game-area {
-            display: grid;
-            width: 80vw;
-            grid-template-rows: repeat(4, 1fr);
-            margin: 0 auto;
-            font-size: 2em;
-            background-color: #181623;
-            color: white;
-            font-family: 'Nothing You Could Do', cursive;
-        }
-
-        .row {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-
-        }
-
-        .button {
-            width: 20vw;
-            height: 20vw;
-            text-align: center;
-            line-height: 20vw;
-        }
-
-        @media screen and (min-width: 500px) {
-            .game-area {
-                width: 400px;
-            }
-            .button {
-                width: 100px;
-                height: 100px;
-                line-height: 100px;
-            }
-        }
-    </style>
-    <header>
-        <nav>
-            <ul>
-                <li class="nav-blog">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="nav-github">
-                    <a href="https://github.com/Ding-Fan">Github</a>
-                </li>
-                <li class="nav-twitter">
-                    <a href="#">Twitter</a>
-                </li>
-                <li class="nav-email">
-                    <a href="mailto:zichuange@gmail.com">Email</a>
-                </li>
-                <li class="nav-resume">
-                    <a href="#">resume</a>
-                </li>
-                <li class="nav-language">
-                    <a href="#">中文</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <div class="container">
-            <h1>Ding Fan</h1>
-            <p>Front-end developer</p>
+<header>
+    <nav>
+        <ul>
+            <li class="nav-blog">
+                <a href="#">Blog</a>
+            </li>
+            <li class="nav-github">
+                <a href="https://github.com/Ding-Fan">Github</a>
+            </li>
+            <li class="nav-twitter">
+                <a href="#">Twitter</a>
+            </li>
+            <li class="nav-email">
+                <a href="mailto:zichuange@gmail.com">Email</a>
+            </li>
+            <li class="nav-resume">
+                <a href="#">resume</a>
+            </li>
+            <li class="nav-language">
+                <a href="#">中文</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <div class="container">
+        <h1>Ding Fan</h1>
+        <p>Front-end developer</p>
+    </div>
+</article>
+<article>
+    <div class="game-area">
+        <div class="row">
+            <div class="button aa">0</div>
+            <div class="button ab">0</div>
+            <div class="button ac">0</div>
+            <div class="button ad">0</div>
         </div>
-    </article>
-    <article>
-        <div class="game-area">
-            <div class="row">
-                <div class="button aa">0</div>
-                <div class="button ab">0</div>
-                <div class="button ac">0</div>
-                <div class="button ad">0</div>
-            </div>
-            <div class="row">
-                <div class="button ba">0</div>
-                <div class="button bb">0</div>
-                <div class="button bc">0</div>
-                <div class="button bd">0</div>
-            </div>
-            <div class="row">
-                <div class="button ca">0</div>
-                <div class="button cb">0</div>
-                <div class="button cc">0</div>
-                <div class="button cd">0</div>
-            </div>
-            <div class="row">
-                <div class="button da">0</div>
-                <div class="button db">0</div>
-                <div class="button dc">0</div>
-                <div class="button dd">0</div>
-            </div>
+        <div class="row">
+            <div class="button ba">0</div>
+            <div class="button bb">0</div>
+            <div class="button bc">0</div>
+            <div class="button bd">0</div>
         </div>
-    </article>
-    <aside>
+        <div class="row">
+            <div class="button ca">0</div>
+            <div class="button cb">0</div>
+            <div class="button cc">0</div>
+            <div class="button cd">0</div>
+        </div>
+        <div class="row">
+            <div class="button da">0</div>
+            <div class="button db">0</div>
+            <div class="button dc">0</div>
+            <div class="button dd">0</div>
+        </div>
+    </div>
+</article>
+<aside>
 
-    </aside>
-    <footer>
+</aside>
+<footer>
 
-    </footer>
-    <script>
-        let gameData = [
-            ['aa', 'ab', 'ac', 'ad'],
-            ['ba', 'bb', 'bc', 'bd'],
-            ['ca', 'cb', 'cc', 'cd'],
-            ['da', 'db', 'dc', 'dd']
-        ];
-        let buttons = {
-            aa: 0,
-            ab: 0,
-            ac: 0,
-            ad: 0,
-            ba: 0,
-            bb: 0,
-            bc: 0,
-            bd: 0,
-            ca: 0,
-            cb: 0,
-            cc: 0,
-            cd: 0,
-            da: 0,
-            db: 0,
-            dc: 0,
-            dd: 0
-        };
-        let buttons_keys = Object.keys(buttons);
-        let changedFlag = true;
-        let renderGameArea = () => {
-            Object.keys(buttons).forEach((key) => {
-                document.querySelector(`.${key}`).innerHTML = buttons[key];
-            });
-            changedFlag = false;
-        };
+</footer>
 
-        let randomGenerate = () => {
-            return (Math.random() > 0.5) ? 2 : 4;
-        };
-        let buttonLabels = ['a', 'b', 'c', 'd'];
-        let randomPickButton = () => {
-            if (!changedFlag) {
-                return;
-            }
-            let void_buttons = buttons_keys.filter(value => !buttons[value]);
-            if (void_buttons.length) {
-                let theButton = void_buttons[Math.floor(Math.random() * void_buttons.length)];
-                buttons[theButton] = randomGenerate();
-                renderGameArea();
-            }
-        };
-        let slideLine = function(a, b, c, d, reverseFlag) {
-            let result = [buttons[a], buttons[b], buttons[c], buttons[d]];
-            result = result.filter(value => !!value);
-            if (result.length === 4 && result[0] === result[1] && result[2] === result[3]) {
-                result = [result[0] * 2, result[2] * 2];
-            } else {
-                if (reverseFlag) {
-                    while (result.length < 4) {
-                        result.unshift(0);
-                    }
-                } else {
-                    while (result.length < 4) {
-                        result.push(0);
-                    }
-                }
+<script src="vendor/hammer.min.js"></script>
 
-                function combineResult(result) {
-                    if (reverseFlag) {
-                        result.reverse();
-                    }
-                    [0, 1, 2].some((item) => {
-                        if (result[item] === result[item + 1]) {
-                            result[item] += result[item + 1];
-                            result[item + 1] = 0;
-                            return true;
-                        } else {
-                            return false;
-                        }
-                    });
-                    if (reverseFlag) {
-                        result.reverse();
-                    }
-                }
-                combineResult(result);
-            }
+<script src="src/index.js"></script>
 
-            result = result.filter(value => !!value);
-            if (reverseFlag) {
-                while (result.length < 4) {
-                    result.unshift(0);
-                }
-            } else {
-                while (result.length < 4) {
-                    result.push(0);
-                }
-            }
-
-            result.forEach((item, index) => {
-                if (buttons[arguments[index]] !== item) {
-                    changedFlag = true;
-                };
-                buttons[arguments[index]] = item;
-            });
-        };
-        let rowSlide = (reverseFlag) => {
-            // default is left
-            [0, 1, 2, 3].forEach((value) => {
-                slideLine(...gameData[value], reverseFlag);
-            });
-            randomPickButton();
-        };
-        let columnSlide = (reverseFlag) => {
-            // default is up
-            [0, 1, 2, 3].forEach((value) => {
-                slideLine(gameData[0][value], gameData[1][value], gameData[2][value], gameData[3][value], reverseFlag);
-            });
-            randomPickButton();
-        };
-        let keyHandle = (e) => {
-            switch (e.keyCode) {
-                case 37: // left
-                    rowSlide();
-                    break;
-                case 39: // right
-                    rowSlide(true);
-                    break;
-                case 38: // up
-                    columnSlide();
-                    break;
-                case 40: // down
-                    columnSlide(true);
-                    break;
-                default:
-                    break;
-            }
-        }
-        window.addEventListener('keyup', keyHandle);
-        // mobile support
-        let gameArea = document.querySelector('.game-area');
-
-        let hammer = new Hammer(gameArea);
-
-        hammer.get('swipe').set({
-            direction: Hammer.DIRECTION_ALL
-        });
-
-        hammer.on("swipeleft swiperight swipeup swipedown", function(event) {
-            switch (event.type) {
-                case "swipeleft":
-                    rowSlide();
-                    break;
-                case "swiperight":
-                    rowSlide(true);
-                    break;
-                case "swipeup":
-                    columnSlide();
-                    break;
-                case "swipedown":
-                    columnSlide(true);
-                    break;
-                default:
-                    break;
-            }
-        });
-    </script>
 </body>
 
 </html>
